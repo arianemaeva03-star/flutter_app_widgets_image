@@ -67,7 +67,7 @@ class MainApp extends StatelessWidget {
      );
    }
  }
-/*COMPARAISON DU RENDU (Étape 4) :
+/*COMPARAISON DU RENDU :
 J'ai lancé l'application sur trois plateformes : Chrome, Edge et en version de bureau sur Windows.
 
 Remarques :
