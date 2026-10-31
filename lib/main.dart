@@ -67,3 +67,14 @@ class MainApp extends StatelessWidget {
      );
    }
  }
+/*COMPARAISON DU RENDU (Étape 4) :
+J'ai lancé l'application sur trois plateformes : Chrome, Edge et en version de bureau sur Windows.
+
+Remarques :
+- Ce qui est pareil : L'interface générale ne change pas. L'image, les textes et les trois types de boutons (Elevated, Outlined et TextButton) sont placés exactement aux mêmes endroits. L'alignement reste bien au centre partout.
+
+- Comme différences : 
+  1- Pour les navigateurs (Chrome et Edge), l'application s'affiche dans une page web avec l'URL (localhost), alors que sur la version Windows, c'est une vraie application de bureau dans sa propre fenêtre, sans barre de navigation.
+  2- J'ai remarqué que l'écriture (la police) a un rendu très légèrement différent d'un écran à l'autre au niveau de la netteté, car les navigateurs et Windows ne gèrent pas le texte exactement de la même façon.
+
+En conclusion, Flutter garde presque le même design partout, même si le contour de l'application s'adapte au système.*/
