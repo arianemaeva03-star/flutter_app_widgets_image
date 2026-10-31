@@ -16,8 +16,33 @@ class MainApp extends StatelessWidget {
           title: Text('Atelier2'),
           centerTitle: true,
           backgroundColor: Colors.blueAccent,),
-          body: Center(child: Text('Bienvenue dans cet atelier')),
-      ),
-    );
-  }
-}
+          body: Container(
+            alignment: Alignment.topCenter,
+            child:Column(
+              children: [
+                SizedBox(height: 20),
+                Text(
+                  'Bienvenue dans mon atelier03 flutter_image!',
+                  style: TextStyle(
+                    fontSize: 24,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.deepPurpleAccent,
+                  ),
+                ),
+                SizedBox(height: 20),
+                Image.network(
+                  'https://picsum.photos/id/48/200',
+                ),
+                SizedBox(height: 20),
+                Text(
+                  'Découvrez la construction d une interface simple et élégante.',
+                  textAlign: TextAlign.center,
+                  style: TextStyle(fontSize: 16), 
+                ),
+             ],
+           ),
+         ),
+       ),
+     );
+   }
+ }
